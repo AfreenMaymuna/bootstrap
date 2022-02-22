@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(231, 212, 198);
+}
+
+.hero-section{
+    background-color: rgb(56, 52, 59);
+}
+.menu-icon {
+    width: 25px;
+    cursor: pointer;
+    margin-left: auto;
+}
+.menu-icon span{
+  background-color: rgb(217, 238, 98);
+  height: 2px;
+  margin-bottom: 3px;
+  display: block;
+}
+
+.menu-icon span:nth-child(2){
+    width: 80%;
+    margin-left: auto;
+}
+.menu-icon span:nth-child(3){
+    width: 60%;
+    margin-left: auto;
+}
+/* Hero */
+.hero{
+    height: 400px;
+}
+
+.hero .row{
+    height: 100%;
+}
+.hero-content{
+    height: 100%;
+}
