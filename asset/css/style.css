@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(231, 212, 198);
+    background-color: rgb(143, 182, 216);
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     color: #707070;
@@ -116,6 +116,9 @@ body{
 }
 
 /* SERVICE */
+.service-content-wrapper{
+    padding-bottom: 40px;
+}
 .service-card {
     background-color: #fff;
     padding: 35px 20px 20px;
@@ -124,4 +127,32 @@ body{
 .service-card-footer {
     background-color: #fff;
     padding: 20px;
+}
+.service-line{
+    margin-bottom: 18px;
+}
+.service-line h5{
+    font-size: 13px;
+}
+.service-line-bg{
+    background-color: #f4f4f4;
+    height: 8px;
+    width: 100%;
+}
+.service-line-front-bg{
+    background-color: #ffe500;
+    height: 8px;
+}
+/* projects-card */
+.projects-card-wrapper{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.projects-card h4{
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+.projects-card p{
+    font-size: 13px;
+    margin-bottom: 0;
 }
